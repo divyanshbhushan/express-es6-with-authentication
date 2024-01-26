@@ -1,4 +1,4 @@
-# ES6+ Template
+# ES6+ Template With Authentication
 
 A streamlined Node.js project template featuring Express, EJS, and modern JavaScript practices.
 
