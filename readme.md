@@ -12,6 +12,10 @@ A streamlined Node.js project template featuring Express, EJS, Tailwind CSS, and
 - 📦 Packaged with npm for easy dependency management.
 - 🏗️ Well-structured for easy navigation and extension.
 
+## Preview
+
+Visit the live version of this project: [Express ES6 Starter Code](https://your-project-live-link.com)
+
 ## Getting Started
 
 1. **Clone the repository:**
