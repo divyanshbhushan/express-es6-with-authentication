@@ -1,8 +1,8 @@
-# ES6+ Template with Tailwind CSS and Email-Password Login System
+# 🚀 ES6+ Template with Tailwind CSS and Email-Password Login System
 
 A streamlined Node.js project template featuring Express, EJS, Tailwind CSS, and a secure email-password login system using modern JavaScript practices.
 
-## Features
+## Features 🌟
 
 - ⚡️ Built with Express for efficient server-side routing and handling.
 - 🔍 Leverages EJS for dynamic and flexible view templating.
@@ -14,7 +14,7 @@ A streamlined Node.js project template featuring Express, EJS, Tailwind CSS, and
 
 ## 🚀 Live Preview
 
-Explore the live version of this project on [Heroku](https://your-app-name.herokuapp.com/) or any other hosting service you prefer.
+Explore the live version of this project on [Express Starter Code](https://your-app-name.herokuapp.com/) or any other hosting service you prefer.
 
 **Note:** The live preview may take a moment to load initially.
 
@@ -23,7 +23,7 @@ Explore the live version of this project on [Heroku](https://your-app-name.herok
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/es6-template.git
+    git clone https://github.com/divyanshbhushan/express-es6-with-authentication.git
     cd es6-template
     ```
 
@@ -71,7 +71,7 @@ Make sure to replace `your-mongodb-uri` and `your-jwt-secret` with your actual M
    - Implement and customize the email-password login system according to your needs.
    - Install any additional dependencies needed for your project using `npm install`.
 
-## Key Files and Directories
+## Key Files and Directories 🔑
 
 - `package.json`: Manages project dependencies and scripts.
 - `app.js`: The main application file, where Express is configured, and routes are defined.
@@ -79,6 +79,6 @@ Make sure to replace `your-mongodb-uri` and `your-jwt-secret` with your actual M
 - `views/index.ejs`: An example EJS view file.
 - `public/`: Directory for static assets like images, CSS, and JavaScript files.
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please feel free to open issues or pull requests to help improve this template.
