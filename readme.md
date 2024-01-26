@@ -15,8 +15,8 @@ A streamlined Node.js project template featuring Express, EJS, and modern JavaSc
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/es6-template.git
-    cd es6-template
+    git clone [[https://github.com/your-username/es6-template](https://github.com/divyanshbhushan/express-es6-with-authentication).git](https://github.com/divyanshbhushan/express-es6-with-authentication.git)
+    cd express-es6-with-authentication
     ```
 
 2. **Install dependencies:**
