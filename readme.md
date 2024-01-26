@@ -17,25 +17,40 @@ A streamlined Node.js project template featuring Express, EJS, Tailwind CSS, and
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/divyanshbhushan/express-es6-with-authentication.git
+    git clone https://github.com/your-username/es6-template.git
     cd es6-template
     ```
 
-2. **Install dependencies:**
+2. **Create a `.env` file:**
+
+   Create a `.env` file in the root of your project. Add the following lines and replace the placeholders with your MongoDB URI and a secure JWT secret:
+
+    ```env
+    # .env
+
+    MONGODB_URI=your-mongodb-uri
+    JWT_SECRET=your-jwt-secret
+    ```
+
+   Ensure you keep your `.env` file secure and do not share it publicly.
+
+3. **Install dependencies:**
 
     ```bash
     npm install
     ```
 
-3. **Start the development server:**
+4. **Start the development server:**
 
     ```bash
     npm start
     ```
 
-4. **Access the application in your browser:**
+5. **Access the application in your browser:**
 
     [http://localhost:3000/](http://localhost:3000/)
+
+Make sure to replace `your-mongodb-uri` and `your-jwt-secret` with your actual MongoDB URI and a secure JWT secret key. This step is crucial for connecting to your MongoDB database and securing your JSON Web Tokens (JWT) used in authentication.
 
 ## Using in Your Own Projects
 
