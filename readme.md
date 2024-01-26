@@ -75,7 +75,7 @@ Make sure to replace `your-mongodb-uri` and `your-jwt-secret` with your actual M
 
 - `package.json`: Manages project dependencies and scripts.
 - `app.js`: The main application file, where Express is configured, and routes are defined.
-- `routes/index.js`: Contains route definitions for handling different URL paths.
+- `routes/router.js`: Contains route definitions for handling different URL paths.
 - `views/index.ejs`: An example EJS view file.
 - `public/`: Directory for static assets like images, CSS, and JavaScript files.
 
