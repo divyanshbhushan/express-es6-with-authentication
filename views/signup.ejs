@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{Your_description}">
+  <title>ES6+ Template by Divyansh Bhushan</title>
+  <%- include('./partials/links') %>
+</head>
+<body>
+  <form action="/login" method="post">
+    <input type="email" name="email" placeholder="Enter your email" id="email">
+    <input type="password" name="password" placeholder="Enter your password" id="password">
+    <button type="submit">Login</button>
+    <p><%= errorMessage %></p>
+  </form>
+  <%- include('./partials/scripts') %>
+</body>
+</html>
