@@ -76,5 +76,3 @@ Make sure to replace `your-mongodb-uri` and `your-jwt-secret` with your actual M
 ## Contributing
 
 We welcome contributions! Please feel free to open issues or pull requests to help improve this template.
-
-## License
