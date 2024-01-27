@@ -7,12 +7,18 @@
   <title>ES6+ Template by Divyansh Bhushan</title>
   <%- include('./partials/links') %>
 </head>
-<body>
-  <form action="/login" method="post">
-    <input type="email" name="email" placeholder="Enter your email" id="email">
-    <input type="password" name="password" placeholder="Enter your password" id="password">
-    <button type="submit">Login</button>
-    <p><%= errorMessage %></p>
+<body class="flex items-center justify-center h-screen bg-slate-500">
+  <form action="/login" method="post" class="flex flex-col w-80 gap-4 bg-slate-50 px-5 py-7 h-96 rounded-2xl justify-between">
+    <div class="flex flex-col gap-4">
+      <h1 class="text-zinc-500 text-xl font-semibold mb-3 text-center">Login to continue</h1>
+      <input type="email" name="email" class="border-2 rounded-xl px-3 text-md py-2" placeholder="Enter your email" id="email">
+      <input type="password" name="password" class="border-2 rounded-xl px-3 text-md py-2" placeholder="Enter your password" id="password">
+    </div>
+    <div class="flex flex-col gap-3 items-center">
+      <button type="submit" class="bg-zinc-500 text-white rounded-md py-1 px-6">Login</button>
+      <a href="/signup" class="underline text-xs text-blue-700">Don't have an account? Sign up</a>
+      <p class="text-red-600 text-xs"><%= errorMessage %></p>
+    </div>
   </form>
   <%- include('./partials/scripts') %>
 </body>

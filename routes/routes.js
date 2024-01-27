@@ -1,6 +1,5 @@
 import express from "express";
 import jwt from "jsonwebtoken";
-import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 import "../database/connect.js"; // Connecting to Database
 import User from "../database/models/users.js";
@@ -12,7 +11,7 @@ import isAdmin from "../middlewares/isadmin.js";
 const router = express.Router();
 
 // Get routes
-router.get("/", isAuthenticated, async (req, res) => {
+router.get("/", async (req, res) => {
   res.render("index");
 });
 
